@@ -10,13 +10,30 @@
 <body class="bg-slate-800">
     <section class="max-w-md min-h-screen mx-auto py-6 bg-gray-200">
         <header>
-            <nav class="flex justify-center items-center">
-                <div class="relative flex justify-center items-center w-9/12 mt-24">
+            <nav class="flex justify-center items-center mt-12">
+                <div class="relative flex justify-center items-center w-9/12 mt-12 mb-10">
                     <img class="w-48 absolute" src="assets/bg.png" alt="">
                     <img src="assets/Group.png" alt="">
                 </div>
             </nav>
         </header>
+
+        <div class="bg-base-200 min-h-screen mt-10">
+            <div class="hero-content flex-col lg:flex-row-reverse">
+              <div class="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
+                <div class="card-body">
+                  <fieldset class="fieldset">
+                    <label class="fieldset-label font-bold text-black">Account Number</label>
+                    <input type="number" class="input" placeholder="Enter Account Number" />
+                    <label class="fieldset-label font-bold text-black">PIN</label>
+                    <input type="password" class="input" placeholder="Enter PIN" />
+                    <div><a class="link link-hover">Forgot PIN?</a></div>
+                    <button id="login-btn" class="btn btn-neutral mt-4">Login</button>
+                  </fieldset>
+                </div>
+              </div>
+            </div>
+          </div>
     </section>
 </body>
 </html>
